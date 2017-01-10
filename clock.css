@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+html, body {
+	color: #008080;
+	font-family: sans-serif;
+	font-size: 25px;
+	margin: 0;
+	padding: 0;
+}
+
+.clock {
+	border: 5px solid #008080;
+	border-radius: 50%;
+	height: 300px;
+	left: 50%;
+	margin-left: -150px;
+	margin-top: -150px;
+	position: absolute;
+	top: 50%;
+	width: 300px;
+}
+
+.num {
+	height: 30px;
+	left: 0;
+	position: absolute;
+	text-align: center;
+	top: 0;
+	width: 30px;
+}
+
+#num1 {
+	transform: translate(205px, 27px);
+}
+
+#num2 {
+	transform: translate(250px, 75px);
+}
+
+#num3 {
+	transform: translate(270px, 135px);
+}
+
+#num4 {
+	transform: translate(250px, 200px);
+}
+
+#num5 {
+	transform: translate(205px, 245px);
+}
+
+#num6 {
+	transform: translate(135px, 270px);
+}
+
+#num7 {
+	transform: translate(65px, 245px);
+}
+
+#num8 {
+	transform: translate(20px, 200px);
+}
+
+#num9 {
+	transform: translate(1px, 135px);
+}
+
+#num10 {
+	transform: translate(20px, 75px);
+}
+
+#num11 {
+	transform: translate(65px, 27px);
+}
+
+#num12 {
+	transform: translate(135px, 5px);
+}
+
+.hand {
+	transform: rotate(-90deg);
+	transform-origin: 0 0;
+	transition: all 0.05s;
+}
+
+.hour-hand {
+	background-color: black;
+	height: 8px;
+	left: calc(50% - 4px);
+	position: absolute;
+	top: calc(50% - 4px);
+	width: 70px;
+}
+
+.min-hand {
+	background-color: black;
+	height: 4px;
+	left: calc(50% - 2px);
+	position: absolute;
+	top: calc(50% - 2px);
+	width: 90px;
+}
+
+.second-hand {
+	background-color: #B22222;
+	height: 2px;
+	left: calc(50% - 1px);
+	position: absolute;
+	top: calc(50% - 1px);
+	width: 110px;
+}
