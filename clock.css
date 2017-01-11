@@ -78,6 +78,9 @@ html, body {
 }
 
 .hand {
+	left: 50%;
+	position: absolute;
+	top: 50%;
 	transform: rotate(-90deg);
 	transform-origin: 0 0;
 }
@@ -85,26 +88,17 @@ html, body {
 .hour-hand {
 	background-color: black;
 	height: 8px;
-	left: calc(50% - 4px);
-	position: absolute;
-	top: calc(50% - 4px);
 	width: 70px;
 }
 
 .min-hand {
 	background-color: black;
 	height: 4px;
-	left: calc(50% - 2px);
-	position: absolute;
-	top: calc(50% - 2px);
 	width: 90px;
 }
 
 .second-hand {
 	background-color: #B22222;
 	height: 2px;
-	left: calc(50% - 1px);
-	position: absolute;
-	top: calc(50% - 1px);
 	width: 110px;
 }
